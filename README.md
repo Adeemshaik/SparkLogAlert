@@ -14,9 +14,10 @@ In the later sections, we will take a detailed look at our code + cloud architec
 
 The project comprises 3 Git repositories, each containing their own detailed README files with explanations:
 
-- Project Component 1: https://github.com/niharjoshi/LogFileGeneratorDeployment.git
-- Project Component 2: https://github.com/niharjoshi/RedisMonitor.git
-- **Project Component 3: https://github.com/niharjoshi/SparkLogAlertSystem.git (current)**
+
+- Project Component 1: https://github.com/Adeemshaik/LogFileMonitoring.git
+- Project Component 2: https://github.com/Adeemshaik/RedisMonitoring.git 
+- **Project Component 3: https://github.com/Adeemshaik/SparkLogAlert.git (current)**
 
 ---
 
@@ -30,7 +31,7 @@ We recommend cloning this repository onto your local machine and running it from
 
 To clone the repo use:
 ```console
-git clone https://github.com/niharjoshi/SparkLogAlertSystem.git
+git clone https://github.com/Adeemshaik/SparkLogAlertSystem.git
 ```
 
 Navigate to the repo and use the following command to run the unit test cases:
@@ -111,7 +112,7 @@ sdk install sbt
 
 You can now clone this repository onto the master node:
 ```console
-git clone https://github.com/niharjoshi/SparkLogAlertSystem.git
+git clone https://github.com/Adeemshaik/SparkLogAlertSystem.git
 ```
 
 Next, build the JAR package so you can submit the bundle to the Spark shell:
@@ -164,20 +165,5 @@ An email body is constructed for each batch and this email body is submitted to 
 
 The SNS topic automatically triggers an email notification to the stakeholders.
 
-![Alt text](doc/email-alert.png?raw=true "Email Alert")
 
 ---
-
-## Checklist
-
-- [x] All tasks completed
-- [x] Installation instructions in README
-- [x] In-depth documentation
-- [x] Successful AWS deployment
-- [x] YouTube video
-- [x] More than 5 unit tests
-- [x] Comments and explanations
-- [x] Logging statements
-- [x] No hardcoded values
-- [x] No var or heap-based variables used
-- [x] No for, while or do-while loops used
